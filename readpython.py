@@ -9,7 +9,7 @@ def setup_google_sheets():
         'https://spreadsheets.google.com/feeds',
         'https://www.googleapis.com/auth/drive'
     ]
-    json_keyfile = 'student-score-442208-667e5414488a.json'
+    json_keyfile = 'student-score-442208-e7dc99086721.json'
     creds = ServiceAccountCredentials.from_json_keyfile_name(json_keyfile, scope)
     return gspread.authorize(creds)
 
